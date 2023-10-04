@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { ReactNode } from "react";
 
-interface LayoutProps {
+type LayoutProps = {
   children: ReactNode;
   home?: boolean;
 }
